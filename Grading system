@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main ()
+{
+string studentname;
+double score;
+    cout<<"====student grading system==="<<endl;
+    cout<<"Enter student name"<<endl;
+    cin>>studentname;
+    cout<<"Enter exam score(0-100)"<<endl;
+    cin>>score;
+    cout<<"\n------result------"<<endl;
+    cout<<"student :"<<studentname<<endl;
+    if(score>=90) {
+    cout<<"Grade : A(Exellent)"<<endl;
+    }
+    else if(score>=80) {
+    cout<<"Grade :B(very good)"<<endl;
+    }
+    else if(score>70) {
+    cout<<"Grade :c(good)"<<endl;
+    }
+    else {
+    cout<<"Grade : Need improvment(keep trying)"<<endl;
+    }
+    return 0;
+    
+}
